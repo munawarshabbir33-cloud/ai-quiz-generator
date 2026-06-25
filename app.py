@@ -10,7 +10,7 @@ api_token = st.secrets["DEEPSEEK_API_KEY"]
 # Instantiate the communication client pointing directly to DeepSeek's servers
 client = OpenAI(
     api_key=api_token,
-    base_url="https://api.deepseek.com"
+    base_url="https://api.deepseek.com/v1""
 )
 
 # -----------------------------------------------------------------------------
